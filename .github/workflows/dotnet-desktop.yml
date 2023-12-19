@@ -43,5 +43,3 @@ jobs:
     - name: Execute unit tests
       run: dotnet test
 
-        name: MSIX Package
-        path: ${{ env.Wap_Project_Directory }}\AppPackages
